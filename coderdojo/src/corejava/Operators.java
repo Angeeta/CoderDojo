@@ -6,7 +6,8 @@ public class Operators {
 		// TODO Auto-generated method stub
 
 		System.out.println("potato");
-		
+		System.out.println("potato");
+
 	}
 
 }
