@@ -4,9 +4,6 @@ public class Operators {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
-		System.out.println("Hello");
-		System.out.println(":)");
 		
 		// 2 rabbits : Butter & Toast and their comparisons
 		
@@ -18,8 +15,20 @@ public class Operators {
 		
 		int toastWeighsMore = toastWeight - butterWeight;
 
-		System.out.println("Toast weighs " + toastWeighsMore + " more pound than butter");
+		System.out.println("Toast weighs " + toastWeighsMore + " more pounds than butter");
 		
+		int totalWeight = butterWeight + toastWeight;
+		
+		System.out.println("Their total weight is " + totalWeight);
+		
+		int totalWeightMultiplyed = butterWeight * toastWeight;
+		
+		System.out.println("Butter weighs " + totalWeightMultiplyed + " pounds when multplied with Toast's weight");
+		
+		double totalWeightDivided = butterWeight / toastWeight;
+		
+		System.out.println("Butter weighs " + totalWeightDivided + " pounds when divided with Toast's weight");
+
 	}
 
 }
