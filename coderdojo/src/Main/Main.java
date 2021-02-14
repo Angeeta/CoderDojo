@@ -11,7 +11,7 @@ public class Main {
 		// object: math for type Arithmetic 
 		// object: inequalities for type Relational 
 		// class: Arithmetic.java, Relational.java etc.
-		// method: int add = math.addition(1, 2); System.out.println("One plus Two is " + add);
+		// method: addition, subtraction, division, multiplication, equalto, notequalto, greater, less
 		// defining here
 
 		Arithmetic math = new Arithmetic();
