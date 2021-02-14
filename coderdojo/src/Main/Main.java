@@ -10,7 +10,7 @@ public class Main {
 		
 		// object: math for type Arithmetic 
 		// object: inequalities for type Relational 
-		// class: Arithmetic, Relational etc.
+		// class: Arithmetic.java, Relational.java etc.
 		// method: int add = math.addition(1, 2); System.out.println("One plus Two is " + add);
 		// defining here
 
