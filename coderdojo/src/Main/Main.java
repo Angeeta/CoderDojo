@@ -1,6 +1,7 @@
 package Main;
 
 import Arithmetic.Arithmetic;
+import Bitwise.Bitwise;
 import Relational.Relational;
 
 public class Main {
@@ -8,12 +9,6 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		// object: math for type Arithmetic 
-		// object: inequalities for type Relational 
-		// class: Arithmetic.java, Relational.java etc.
-		// method: addition, subtraction, division, multiplication, equalto, notequalto, greater, less
-		// defining here
-
 		Arithmetic math = new Arithmetic();
 
 		int add = math.addition(1, 2);
@@ -41,6 +36,16 @@ public class Main {
 
 		boolean lessthan = inequalities.less(1, 5);
 		System.out.println("Is One less than Five? " + lessthan);
+		
+		Bitwise bitwise = new Bitwise();
+		
+		System.out.println("Bitwise And on 7 and 5: " + bitwise.and(7, 5));
+		
+        System.out.println("Bitwise Or on 7 and 5: " + bitwise.or(7, 5));
+        
+        System.out.println("Bitwise Exclusive OR on 7 and 5: " + bitwise.exclusiveOr(7, 5));
+        
+        System.out.println("Bitwise Complement of 5: " + bitwise.complement(5));
 
 	}
 }
